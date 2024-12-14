@@ -1,3 +1,9 @@
+rub this
+
+```
+mkdir -p /data/modes/mlc/dist
+```
+
 # Jetbot Tools with Jetson Inference DNN Vision Library and NanoLLM Container for NAV2 ROS2 Robot - Version 2.0
 
 Jetbot Tools is a collection of ROS2 nodes that leverage the Jetson Inference DNN Vision Library and the Jetson NanoLLM Docker container for NVIDIA Jetson. With Jetbot Tools, you can build a cost-effective, two-wheel robot equipped with a camera and a lidar sensor, enabling it to perform the following impressive tasks:
