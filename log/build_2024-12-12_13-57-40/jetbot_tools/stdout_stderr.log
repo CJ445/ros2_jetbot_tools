@@ -1,0 +1,121 @@
+running egg_info
+creating build/jetbot_tools/jetbot_tools.egg-info
+writing build/jetbot_tools/jetbot_tools.egg-info/PKG-INFO
+writing dependency_links to build/jetbot_tools/jetbot_tools.egg-info/dependency_links.txt
+writing entry points to build/jetbot_tools/jetbot_tools.egg-info/entry_points.txt
+writing requirements to build/jetbot_tools/jetbot_tools.egg-info/requires.txt
+writing top-level names to build/jetbot_tools/jetbot_tools.egg-info/top_level.txt
+writing manifest file 'build/jetbot_tools/jetbot_tools.egg-info/SOURCES.txt'
+reading manifest file 'build/jetbot_tools/jetbot_tools.egg-info/SOURCES.txt'
+writing manifest file 'build/jetbot_tools/jetbot_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kids/ros2_jetbot_tools/build/jetbot_tools/build
+creating /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib
+creating /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools
+copying jetbot_tools/__init__.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools
+creating /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include
+copying jetbot_tools/include/__init__.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include
+copying jetbot_tools/include/robot_acton_utility.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include
+copying jetbot_tools/include/detectnet_result_utility.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include
+copying jetbot_tools/include/object_tracker.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include
+copying jetbot_tools/include/tf2_utilities.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include
+copying jetbot_tools/include/node_parameter_utility.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include
+copying jetbot_tools/include/lidar_utilities.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include
+creating /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+copying jetbot_tools/script/__init__.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+copying jetbot_tools/script/jetbot_tools_copilot.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+copying jetbot_tools/script/llm_vision_agent.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+copying jetbot_tools/script/llm_chat_agent.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+copying jetbot_tools/script/calibrate_linear.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+copying jetbot_tools/script/laser_avoidance.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+copying jetbot_tools/script/ros2_image_subscriber.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+copying jetbot_tools/script/calibrate_angular.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+copying jetbot_tools/script/detect_copilot.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+copying jetbot_tools/script/tf2_listener_copilot.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+copying jetbot_tools/script/follow_copilot.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script
+running install
+running install_lib
+creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/__init__.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools
+creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/__init__.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/robot_acton_utility.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/detectnet_result_utility.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/object_tracker.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/tf2_utilities.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/node_parameter_utility.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/lidar_utilities.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include
+creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/__init__.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/jetbot_tools_copilot.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/llm_vision_agent.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/llm_chat_agent.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/calibrate_linear.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/laser_avoidance.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/ros2_image_subscriber.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/calibrate_angular.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/detect_copilot.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/tf2_listener_copilot.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/follow_copilot.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/robot_acton_utility.py to robot_acton_utility.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/detectnet_result_utility.py to detectnet_result_utility.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/object_tracker.py to object_tracker.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/tf2_utilities.py to tf2_utilities.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/node_parameter_utility.py to node_parameter_utility.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/lidar_utilities.py to lidar_utilities.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/jetbot_tools_copilot.py to jetbot_tools_copilot.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/llm_vision_agent.py to llm_vision_agent.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/llm_chat_agent.py to llm_chat_agent.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/calibrate_linear.py to calibrate_linear.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/laser_avoidance.py to laser_avoidance.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/ros2_image_subscriber.py to ros2_image_subscriber.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/calibrate_angular.py to calibrate_angular.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/detect_copilot.py to detect_copilot.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/tf2_listener_copilot.py to tf2_listener_copilot.cpython-310.pyc
+byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/follow_copilot.py to follow_copilot.cpython-310.pyc
+running install_data
+creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/ament_index
+creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/ament_index/resource_index
+creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/ament_index/resource_index/packages
+copying resource/jetbot_tools -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools
+creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch
+copying launch/jetbot_tools_voice.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch
+copying launch/DNN_video_viewer.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch
+copying launch/camera_img_resize.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch
+copying launch/DNN_video_source.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch
+copying launch/DNN_SSD_source.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch
+copying launch/detect_copilot.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch
+copying launch/tf2_follow_copilot.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch
+copying launch/follow_copilot.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch
+copying launch/jetbot_camera.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch
+copying launch/laser_avoidance.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch
+creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param
+copying param/detect_toys_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param
+copying param/tf2_follow_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param
+copying param/jetbot_voice_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param
+copying param/pibot_detect_toys_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param
+copying param/laser_avoidance_sim_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param
+copying param/laser_avoidance_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param
+copying param/pibot_laser_avoidance_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param
+copying param/follow_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param
+copying param/pibot_follow_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param
+creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/include
+running install_egg_info
+Copying build/jetbot_tools/jetbot_tools.egg-info to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools-0.0.0-py3.10.egg-info
+running install_scripts
+Installing calibrate_angular script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+Installing calibrate_linear script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+Installing detect_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+Installing follow_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+Installing img_subscriber script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+Installing laser_avoidance script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+Installing llm_chat_agent script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+Installing llm_vision_agent script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+Installing tf2_follow script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+Installing voice_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+writing list of installed files to '/home/kids/ros2_jetbot_tools/build/jetbot_tools/install.log'

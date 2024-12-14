@@ -1,0 +1,30 @@
+[1.338s] Invoking command in '/home/kids/ros2_jetbot_tools': PYTHONPATH=/home/kids/ros2_jetbot_tools/build/jetbot_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/jetbot_tools build --build-base /home/kids/ros2_jetbot_tools/build/jetbot_tools/build install --record /home/kids/ros2_jetbot_tools/build/jetbot_tools/install.log --single-version-externally-managed install_data
+[1.699s] running egg_info
+[1.702s] writing build/jetbot_tools/jetbot_tools.egg-info/PKG-INFO
+[1.704s] writing dependency_links to build/jetbot_tools/jetbot_tools.egg-info/dependency_links.txt
+[1.705s] writing entry points to build/jetbot_tools/jetbot_tools.egg-info/entry_points.txt
+[1.705s] writing requirements to build/jetbot_tools/jetbot_tools.egg-info/requires.txt
+[1.705s] writing top-level names to build/jetbot_tools/jetbot_tools.egg-info/top_level.txt
+[1.709s] reading manifest file 'build/jetbot_tools/jetbot_tools.egg-info/SOURCES.txt'
+[1.713s] writing manifest file 'build/jetbot_tools/jetbot_tools.egg-info/SOURCES.txt'
+[1.713s] running build
+[1.714s] running build_py
+[1.721s] running install
+[1.722s] running install_lib
+[1.729s] running install_data
+[1.733s] running install_egg_info
+[1.736s] removing '/home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools-0.0.0-py3.10.egg-info' (and everything under it)
+[1.737s] Copying build/jetbot_tools/jetbot_tools.egg-info to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools-0.0.0-py3.10.egg-info
+[1.739s] running install_scripts
+[1.779s] Installing calibrate_angular script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+[1.780s] Installing calibrate_linear script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+[1.780s] Installing detect_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+[1.780s] Installing follow_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+[1.781s] Installing img_subscriber script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+[1.781s] Installing laser_avoidance script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+[1.781s] Installing llm_chat_agent script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+[1.781s] Installing llm_vision_agent script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+[1.782s] Installing tf2_follow script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+[1.782s] Installing voice_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools
+[1.783s] writing list of installed files to '/home/kids/ros2_jetbot_tools/build/jetbot_tools/install.log'
+[1.844s] Invoked command in '/home/kids/ros2_jetbot_tools' returned '0': PYTHONPATH=/home/kids/ros2_jetbot_tools/build/jetbot_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/jetbot_tools build --build-base /home/kids/ros2_jetbot_tools/build/jetbot_tools/build install --record /home/kids/ros2_jetbot_tools/build/jetbot_tools/install.log --single-version-externally-managed install_data

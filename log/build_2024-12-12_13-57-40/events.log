@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000768] (jetbot_tools) JobQueued: {'identifier': 'jetbot_tools', 'dependencies': OrderedDict()}
+[0.001764] (jetbot_tools) JobStarted: {'identifier': 'jetbot_tools'}
+[0.099296] (-) TimerEvent: {}
+[0.199859] (-) TimerEvent: {}
+[0.300386] (-) TimerEvent: {}
+[0.400857] (-) TimerEvent: {}
+[0.501402] (-) TimerEvent: {}
+[0.601975] (-) TimerEvent: {}
+[0.702547] (-) TimerEvent: {}
+[0.803007] (-) TimerEvent: {}
+[0.903566] (-) TimerEvent: {}
+[1.004159] (-) TimerEvent: {}
+[1.104814] (-) TimerEvent: {}
+[1.205922] (-) TimerEvent: {}
+[1.208580] (jetbot_tools) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/jetbot_tools', 'build', '--build-base', '/home/kids/ros2_jetbot_tools/build/jetbot_tools/build', 'install', '--record', '/home/kids/ros2_jetbot_tools/build/jetbot_tools/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kids/ros2_jetbot_tools', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'kids', 'SSH_CLIENT': '192.168.1.19 52470 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/kids', 'OLDPWD': '/home/kids', 'SSH_TTY': '/dev/pts/4', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'kids', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kids/ngc-cli', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/kids/ros2_jetbot_tools/build/jetbot_tools', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.19 52470 192.168.1.164 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/kids/ros2_jetbot_tools/build/jetbot_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages:'}, 'shell': False}
+[1.306077] (-) TimerEvent: {}
+[1.406607] (-) TimerEvent: {}
+[1.507053] (-) TimerEvent: {}
+[1.581116] (jetbot_tools) StdoutLine: {'line': b'running egg_info\n'}
+[1.584323] (jetbot_tools) StdoutLine: {'line': b'creating build/jetbot_tools/jetbot_tools.egg-info\n'}
+[1.584647] (jetbot_tools) StdoutLine: {'line': b'writing build/jetbot_tools/jetbot_tools.egg-info/PKG-INFO\n'}
+[1.585427] (jetbot_tools) StdoutLine: {'line': b'writing dependency_links to build/jetbot_tools/jetbot_tools.egg-info/dependency_links.txt\n'}
+[1.585835] (jetbot_tools) StdoutLine: {'line': b'writing entry points to build/jetbot_tools/jetbot_tools.egg-info/entry_points.txt\n'}
+[1.585981] (jetbot_tools) StdoutLine: {'line': b'writing requirements to build/jetbot_tools/jetbot_tools.egg-info/requires.txt\n'}
+[1.586235] (jetbot_tools) StdoutLine: {'line': b'writing top-level names to build/jetbot_tools/jetbot_tools.egg-info/top_level.txt\n'}
+[1.586394] (jetbot_tools) StdoutLine: {'line': b"writing manifest file 'build/jetbot_tools/jetbot_tools.egg-info/SOURCES.txt'\n"}
+[1.589588] (jetbot_tools) StdoutLine: {'line': b"reading manifest file 'build/jetbot_tools/jetbot_tools.egg-info/SOURCES.txt'\n"}
+[1.591276] (jetbot_tools) StdoutLine: {'line': b"writing manifest file 'build/jetbot_tools/jetbot_tools.egg-info/SOURCES.txt'\n"}
+[1.591585] (jetbot_tools) StdoutLine: {'line': b'running build\n'}
+[1.591735] (jetbot_tools) StdoutLine: {'line': b'running build_py\n'}
+[1.591906] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/build/jetbot_tools/build\n'}
+[1.592070] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib\n'}
+[1.592230] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools\n'}
+[1.592381] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/__init__.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools\n'}
+[1.592776] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include\n'}
+[1.592929] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/include/__init__.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include\n'}
+[1.593161] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/include/robot_acton_utility.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include\n'}
+[1.593432] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/include/detectnet_result_utility.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include\n'}
+[1.593678] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/include/object_tracker.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include\n'}
+[1.593909] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/include/tf2_utilities.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include\n'}
+[1.594140] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/include/node_parameter_utility.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include\n'}
+[1.594383] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/include/lidar_utilities.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include\n'}
+[1.595000] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.595165] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/script/__init__.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.595365] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/script/jetbot_tools_copilot.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.595690] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/script/llm_vision_agent.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.595952] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/script/llm_chat_agent.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.596203] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/script/calibrate_linear.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.596442] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/script/laser_avoidance.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.596709] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/script/ros2_image_subscriber.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.596931] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/script/calibrate_angular.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.597162] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/script/detect_copilot.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.597429] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/script/tf2_listener_copilot.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.597679] (jetbot_tools) StdoutLine: {'line': b'copying jetbot_tools/script/follow_copilot.py -> /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script\n'}
+[1.598651] (jetbot_tools) StdoutLine: {'line': b'running install\n'}
+[1.599300] (jetbot_tools) StdoutLine: {'line': b'running install_lib\n'}
+[1.600503] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools\n'}
+[1.600700] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/__init__.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools\n'}
+[1.600982] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include\n'}
+[1.601148] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/__init__.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include\n'}
+[1.601350] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/robot_acton_utility.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include\n'}
+[1.601597] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/detectnet_result_utility.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include\n'}
+[1.601816] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/object_tracker.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include\n'}
+[1.602038] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/tf2_utilities.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include\n'}
+[1.602251] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/node_parameter_utility.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include\n'}
+[1.602481] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/include/lidar_utilities.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include\n'}
+[1.602814] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.602978] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/__init__.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.603163] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/jetbot_tools_copilot.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.603449] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/llm_vision_agent.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.603680] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/llm_chat_agent.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.603893] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/calibrate_linear.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.604113] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/laser_avoidance.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.604351] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/ros2_image_subscriber.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.604552] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/calibrate_angular.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.604776] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/detect_copilot.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.604997] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/tf2_listener_copilot.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.605211] (jetbot_tools) StdoutLine: {'line': b'copying /home/kids/ros2_jetbot_tools/build/jetbot_tools/build/lib/jetbot_tools/script/follow_copilot.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script\n'}
+[1.606348] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/__init__.py to __init__.cpython-310.pyc\n'}
+[1.606900] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/__init__.py to __init__.cpython-310.pyc\n'}
+[1.607037] (-) TimerEvent: {}
+[1.607366] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/robot_acton_utility.py to robot_acton_utility.cpython-310.pyc\n'}
+[1.609541] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/detectnet_result_utility.py to detectnet_result_utility.cpython-310.pyc\n'}
+[1.611166] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/object_tracker.py to object_tracker.cpython-310.pyc\n'}
+[1.611808] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/tf2_utilities.py to tf2_utilities.cpython-310.pyc\n'}
+[1.612751] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/node_parameter_utility.py to node_parameter_utility.cpython-310.pyc\n'}
+[1.614189] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/include/lidar_utilities.py to lidar_utilities.cpython-310.pyc\n'}
+[1.617640] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/__init__.py to __init__.cpython-310.pyc\n'}
+[1.618080] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/jetbot_tools_copilot.py to jetbot_tools_copilot.cpython-310.pyc\n'}
+[1.624772] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/llm_vision_agent.py to llm_vision_agent.cpython-310.pyc\n'}
+[1.628162] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/llm_chat_agent.py to llm_chat_agent.cpython-310.pyc\n'}
+[1.629715] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/calibrate_linear.py to calibrate_linear.cpython-310.pyc\n'}
+[1.631588] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/laser_avoidance.py to laser_avoidance.cpython-310.pyc\n'}
+[1.635087] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/ros2_image_subscriber.py to ros2_image_subscriber.cpython-310.pyc\n'}
+[1.636180] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/calibrate_angular.py to calibrate_angular.cpython-310.pyc\n'}
+[1.638112] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/detect_copilot.py to detect_copilot.cpython-310.pyc\n'}
+[1.640711] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/tf2_listener_copilot.py to tf2_listener_copilot.cpython-310.pyc\n'}
+[1.642708] (jetbot_tools) StdoutLine: {'line': b'byte-compiling /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools/script/follow_copilot.py to follow_copilot.cpython-310.pyc\n'}
+[1.645916] (jetbot_tools) StdoutLine: {'line': b'running install_data\n'}
+[1.646145] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/ament_index\n'}
+[1.646307] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/ament_index/resource_index\n'}
+[1.646481] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/ament_index/resource_index/packages\n'}
+[1.646651] (jetbot_tools) StdoutLine: {'line': b'copying resource/jetbot_tools -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/ament_index/resource_index/packages\n'}
+[1.646812] (jetbot_tools) StdoutLine: {'line': b'copying package.xml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools\n'}
+[1.647033] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch\n'}
+[1.647196] (jetbot_tools) StdoutLine: {'line': b'copying launch/jetbot_tools_voice.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch\n'}
+[1.647376] (jetbot_tools) StdoutLine: {'line': b'copying launch/DNN_video_viewer.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch\n'}
+[1.647573] (jetbot_tools) StdoutLine: {'line': b'copying launch/camera_img_resize.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch\n'}
+[1.647768] (jetbot_tools) StdoutLine: {'line': b'copying launch/DNN_video_source.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch\n'}
+[1.647983] (jetbot_tools) StdoutLine: {'line': b'copying launch/DNN_SSD_source.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch\n'}
+[1.648184] (jetbot_tools) StdoutLine: {'line': b'copying launch/detect_copilot.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch\n'}
+[1.648373] (jetbot_tools) StdoutLine: {'line': b'copying launch/tf2_follow_copilot.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch\n'}
+[1.648557] (jetbot_tools) StdoutLine: {'line': b'copying launch/follow_copilot.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch\n'}
+[1.648739] (jetbot_tools) StdoutLine: {'line': b'copying launch/jetbot_camera.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch\n'}
+[1.648923] (jetbot_tools) StdoutLine: {'line': b'copying launch/laser_avoidance.launch.py -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/launch\n'}
+[1.649133] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param\n'}
+[1.649294] (jetbot_tools) StdoutLine: {'line': b'copying param/detect_toys_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param\n'}
+[1.649461] (jetbot_tools) StdoutLine: {'line': b'copying param/tf2_follow_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param\n'}
+[1.649648] (jetbot_tools) StdoutLine: {'line': b'copying param/jetbot_voice_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param\n'}
+[1.649849] (jetbot_tools) StdoutLine: {'line': b'copying param/pibot_detect_toys_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param\n'}
+[1.650034] (jetbot_tools) StdoutLine: {'line': b'copying param/laser_avoidance_sim_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param\n'}
+[1.650218] (jetbot_tools) StdoutLine: {'line': b'copying param/laser_avoidance_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param\n'}
+[1.650406] (jetbot_tools) StdoutLine: {'line': b'copying param/pibot_laser_avoidance_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param\n'}
+[1.650625] (jetbot_tools) StdoutLine: {'line': b'copying param/follow_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param\n'}
+[1.650809] (jetbot_tools) StdoutLine: {'line': b'copying param/pibot_follow_copilot_params.yaml -> /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/param\n'}
+[1.651010] (jetbot_tools) StdoutLine: {'line': b'creating /home/kids/ros2_jetbot_tools/install/jetbot_tools/share/jetbot_tools/include\n'}
+[1.651167] (jetbot_tools) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.654249] (jetbot_tools) StdoutLine: {'line': b'Copying build/jetbot_tools/jetbot_tools.egg-info to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools-0.0.0-py3.10.egg-info\n'}
+[1.656114] (jetbot_tools) StdoutLine: {'line': b'running install_scripts\n'}
+[1.695219] (jetbot_tools) StdoutLine: {'line': b'Installing calibrate_angular script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.695622] (jetbot_tools) StdoutLine: {'line': b'Installing calibrate_linear script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.695858] (jetbot_tools) StdoutLine: {'line': b'Installing detect_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.696064] (jetbot_tools) StdoutLine: {'line': b'Installing follow_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.696258] (jetbot_tools) StdoutLine: {'line': b'Installing img_subscriber script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.696443] (jetbot_tools) StdoutLine: {'line': b'Installing laser_avoidance script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.696630] (jetbot_tools) StdoutLine: {'line': b'Installing llm_chat_agent script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.696813] (jetbot_tools) StdoutLine: {'line': b'Installing llm_vision_agent script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.696992] (jetbot_tools) StdoutLine: {'line': b'Installing tf2_follow script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.697174] (jetbot_tools) StdoutLine: {'line': b'Installing voice_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.698527] (jetbot_tools) StdoutLine: {'line': b"writing list of installed files to '/home/kids/ros2_jetbot_tools/build/jetbot_tools/install.log'\n"}
+[1.707166] (-) TimerEvent: {}
+[1.760125] (jetbot_tools) CommandEnded: {'returncode': 0}
+[1.808660] (-) TimerEvent: {}
+[1.814165] (jetbot_tools) JobEnded: {'identifier': 'jetbot_tools', 'rc': 0}
+[1.816067] (-) EventReactorShutdown: {}

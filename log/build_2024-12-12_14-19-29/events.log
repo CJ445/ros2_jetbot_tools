@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.001273] (jetbot_tools) JobQueued: {'identifier': 'jetbot_tools', 'dependencies': OrderedDict()}
+[0.001590] (jetbot_tools) JobStarted: {'identifier': 'jetbot_tools'}
+[0.099472] (-) TimerEvent: {}
+[0.199991] (-) TimerEvent: {}
+[0.300530] (-) TimerEvent: {}
+[0.401032] (-) TimerEvent: {}
+[0.501984] (-) TimerEvent: {}
+[0.602493] (-) TimerEvent: {}
+[0.703015] (-) TimerEvent: {}
+[0.803535] (-) TimerEvent: {}
+[0.904038] (-) TimerEvent: {}
+[1.004558] (-) TimerEvent: {}
+[1.105119] (-) TimerEvent: {}
+[1.205700] (-) TimerEvent: {}
+[1.306346] (-) TimerEvent: {}
+[1.332422] (jetbot_tools) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/jetbot_tools', 'build', '--build-base', '/home/kids/ros2_jetbot_tools/build/jetbot_tools/build', 'install', '--record', '/home/kids/ros2_jetbot_tools/build/jetbot_tools/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kids/ros2_jetbot_tools', 'env': {'LANGUAGE': 'en_IN:en', 'USER': 'kids', 'SSH_CLIENT': '192.168.1.19 60192 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/kids', 'OLDPWD': '/home/kids', 'SSH_TTY': '/dev/pts/0', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'kids', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kids/ngc-cli', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'PWD': '/home/kids/ros2_jetbot_tools/build/jetbot_tools', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.19 60192 192.168.1.164 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/kids/ros2_jetbot_tools/build/jetbot_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages:'}, 'shell': False}
+[1.406473] (-) TimerEvent: {}
+[1.507021] (-) TimerEvent: {}
+[1.607577] (-) TimerEvent: {}
+[1.700379] (jetbot_tools) StdoutLine: {'line': b'running egg_info\n'}
+[1.703295] (jetbot_tools) StdoutLine: {'line': b'writing build/jetbot_tools/jetbot_tools.egg-info/PKG-INFO\n'}
+[1.705726] (jetbot_tools) StdoutLine: {'line': b'writing dependency_links to build/jetbot_tools/jetbot_tools.egg-info/dependency_links.txt\n'}
+[1.706177] (jetbot_tools) StdoutLine: {'line': b'writing entry points to build/jetbot_tools/jetbot_tools.egg-info/entry_points.txt\n'}
+[1.706450] (jetbot_tools) StdoutLine: {'line': b'writing requirements to build/jetbot_tools/jetbot_tools.egg-info/requires.txt\n'}
+[1.706661] (jetbot_tools) StdoutLine: {'line': b'writing top-level names to build/jetbot_tools/jetbot_tools.egg-info/top_level.txt\n'}
+[1.707628] (-) TimerEvent: {}
+[1.710791] (jetbot_tools) StdoutLine: {'line': b"reading manifest file 'build/jetbot_tools/jetbot_tools.egg-info/SOURCES.txt'\n"}
+[1.714722] (jetbot_tools) StdoutLine: {'line': b"writing manifest file 'build/jetbot_tools/jetbot_tools.egg-info/SOURCES.txt'\n"}
+[1.714944] (jetbot_tools) StdoutLine: {'line': b'running build\n'}
+[1.715159] (jetbot_tools) StdoutLine: {'line': b'running build_py\n'}
+[1.723143] (jetbot_tools) StdoutLine: {'line': b'running install\n'}
+[1.723828] (jetbot_tools) StdoutLine: {'line': b'running install_lib\n'}
+[1.731070] (jetbot_tools) StdoutLine: {'line': b'running install_data\n'}
+[1.734798] (jetbot_tools) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.737983] (jetbot_tools) StdoutLine: {'line': b"removing '/home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.738662] (jetbot_tools) StdoutLine: {'line': b'Copying build/jetbot_tools/jetbot_tools.egg-info to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/python3.10/site-packages/jetbot_tools-0.0.0-py3.10.egg-info\n'}
+[1.741120] (jetbot_tools) StdoutLine: {'line': b'running install_scripts\n'}
+[1.780240] (jetbot_tools) StdoutLine: {'line': b'Installing calibrate_angular script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.781499] (jetbot_tools) StdoutLine: {'line': b'Installing calibrate_linear script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.781776] (jetbot_tools) StdoutLine: {'line': b'Installing detect_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.782046] (jetbot_tools) StdoutLine: {'line': b'Installing follow_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.782282] (jetbot_tools) StdoutLine: {'line': b'Installing img_subscriber script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.782511] (jetbot_tools) StdoutLine: {'line': b'Installing laser_avoidance script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.782742] (jetbot_tools) StdoutLine: {'line': b'Installing llm_chat_agent script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.782967] (jetbot_tools) StdoutLine: {'line': b'Installing llm_vision_agent script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.783191] (jetbot_tools) StdoutLine: {'line': b'Installing tf2_follow script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.783486] (jetbot_tools) StdoutLine: {'line': b'Installing voice_copilot script to /home/kids/ros2_jetbot_tools/install/jetbot_tools/lib/jetbot_tools\n'}
+[1.784951] (jetbot_tools) StdoutLine: {'line': b"writing list of installed files to '/home/kids/ros2_jetbot_tools/build/jetbot_tools/install.log'\n"}
+[1.807766] (-) TimerEvent: {}
+[1.844710] (jetbot_tools) CommandEnded: {'returncode': 0}
+[1.909495] (-) TimerEvent: {}
+[1.924321] (jetbot_tools) JobEnded: {'identifier': 'jetbot_tools', 'rc': 0}
+[1.926451] (-) EventReactorShutdown: {}
